@@ -1,0 +1,12 @@
+@import "../node_modules/@angular/material/theming";
+@include mat-core();
+
+
+
+$my-primary: #212529;
+$my-accent: #DB8161;
+
+.alternative{
+  $my-primary: #212529;
+  $my-accent: #DB8161;
+}

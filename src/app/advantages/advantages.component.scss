@@ -1,0 +1,176 @@
+.content-wrap{
+  padding: 9% 6% 0;
+}
+
+.content-title{
+  padding-bottom: 4%;
+}
+
+.text{
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+
+.img-wrap{
+  padding-bottom: 9%;
+}
+
+.img1{
+  display: block;
+  margin: auto;
+}
+
+.text1-container{
+  max-width: 80%;
+  margin: auto;
+}
+
+.text1{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #212529;
+}
+
+.advantages-cta{
+  padding-top: 10%;
+}
+
+p{
+  padding-bottom: 1%;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #212529;
+}
+
+.btn-wrap{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2%;
+}
+
+.btn-outline-dark{
+  padding: 1%;
+  color: rgba(219, 129, 97, 1);
+  border-color: rgba(219, 129, 97, 1);
+  border-width: 2px;
+  background-color: white;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:visited{
+  color: white;
+  border-color: #212529;
+  background-color: #212529;
+  outline: none !important;
+  box-shadow: none !important;
+
+}
+a{
+  color: #DB8161;
+  text-decoration: none;
+}
+a:hover,
+a:focus{
+  color: white;
+}
+.btn-text{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /*margin: 2% auto;*/
+  margin: 2% 0;
+}
+
+
+@media (max-width: 1800px) {
+
+}
+@media (max-width: 1500px) {
+
+}
+@media (max-width: 1280px) {
+
+}
+@media (max-width: 980px) {
+  .advantages-cta{
+    padding-top: 6%;
+  }
+  .col-4{
+    padding: 0;
+  }
+  .img1{
+    max-width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .text{
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+  }
+  p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .btn-text{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+  }
+  .btn-wrap{
+    padding-top: 0;
+  }
+  .text1{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10%;
+  }
+  .advantages-cta{
+    padding-top: 3%;
+  }
+}
+@media (max-width: 580px) {
+  .content-title{
+    padding-bottom: 0;
+  }
+  .text{
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+  }
+  p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .text1{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .text1-container{
+  }
+  .img1{
+    width: 50px;
+  }
+  .img-wrap{
+    padding-bottom: 4%;
+  }
+  .col-sm-12{
+    padding: 0;
+  }
+}
+

@@ -1,0 +1,58 @@
+.content-wrap{
+  padding: 9% 6% 0;
+}
+
+.content-title{
+  padding-bottom: 4%;
+}
+
+.text{
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+
+.about-text{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #212529;
+}
+
+p{
+  padding-bottom: 1%;
+}
+
+
+@media (max-width: 768px) {
+  .text{
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+  }
+
+  .about-text{
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 580px) {
+  .content-title{
+    padding-bottom: 0;
+  }
+  .text{
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+  }
+  .about-text{
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

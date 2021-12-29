@@ -1,0 +1,67 @@
+<section class="content">
+  <div class="content-wrap">
+    <div class="part">
+
+      <div class="content-title">
+        <h2 class="text"><a id="form"></a>Расскажите нам о вашей идее</h2>
+      </div>
+
+      <div class="special-text-wrap">
+        <p class="special-symbol">*</p>
+        <p class="special-text">обязательно для заполнения</p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <mat-form-field color="" appearance="legacy">
+              <mat-label>Ваше имя</mat-label>
+              <input matInput [formControl]="name" required>
+              <mat-error *ngIf="name.invalid"></mat-error>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-sm-6">
+            <mat-form-field appearance="legacy">
+              <mat-label>Название компании </mat-label>
+              <input matInput>
+            </mat-form-field>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-12 col-sm-6">
+            <mat-form-field appearance="legacy">
+              <mat-label>Телефон</mat-label>
+              <input matInput [formControl]="number" required>
+              <mat-error *ngIf="number.invalid"></mat-error>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-sm-6">
+            <mat-form-field appearance="legacy">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="your@email.com" [formControl]="email" required>
+              <mat-error *ngIf="email.invalid"></mat-error>
+            </mat-form-field>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-12 col-sm-6">
+            <mat-form-field appearance="legacy">
+              <mat-label>Комментарий</mat-label>
+              <textarea matInput></textarea>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-lg-6 btn-wrap">
+            <!--<div class="warning-text">-->
+            <div class="col-sm-4 col-12">
+              <button type="button" class="btn btn-outline-dark btn-text">отправить</button>
+            </div>
+            <div class="col-sm-8 col-12">
+                <p>Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+            </div>
+            <!--</div>-->
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>

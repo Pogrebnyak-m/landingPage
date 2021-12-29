@@ -1,0 +1,189 @@
+.content{
+  margin: 0;
+  padding-left: 0;
+}
+
+.content-title{
+  padding: 9% 0 2% 6%
+}
+
+.text{
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+
+.services-black{
+  position: relative;
+  display: inline-block;
+}
+.services-black-2{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.right-col{
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.company_img {
+  height: 80vh;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 31px;
+  text-transform: uppercase;
+  padding-bottom: 8%;
+}
+
+.left{
+  padding-left: 12%;
+  padding-right: 6%;
+}
+.right{
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
+span{
+  display:inline-block;
+  padding-top: 20%;
+}
+
+
+.marker{
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #212529;
+  padding-right: 5%;
+}
+.white-marker{
+  color: #FFFFFF;
+}
+.marker-p{
+  display: flex;
+  padding-bottom: 4%;
+}
+p{
+  margin: auto 0;
+}
+.special-services-text{
+  position: absolute;
+  left: 0;
+}
+.services-text{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #212529;
+  width: 100%;
+  /*padding-top: 15%;*/
+}
+.white-services-text{
+  color: #FFFFFF;
+}
+
+.lt-xl{
+  display: none;
+  padding: 0;
+}
+
+@media (max-width: 1280px) {
+.col{
+  padding: 0;
+}
+}
+@media (max-width: 1200px){
+  .lt-xl{
+    display: block;
+  }
+  .gt-xl{
+    display: none;
+  }
+  h3{
+    padding-bottom: 4%;
+  }
+  span{
+    padding-top: 10%;
+  }
+  .special{
+    padding-top: 20%;
+  }
+}
+@media (max-width: 980px) {
+  span{
+    display: inline-block;
+    padding-top: 10%;
+  }
+  h3{
+    padding-bottom: 4%;
+  }
+  .special{
+    padding-top: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .text{
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 4%;
+  }
+  .services-text{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .marker{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .right{
+    padding-left: 12%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 580px) {
+  .content-title{
+    padding-bottom: 0;
+  }
+  .text{
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+  }
+  h3{
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .services-text{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .marker{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .marker-p{
+    padding-bottom: 2%;
+  }
+  .company_img {
+    height: 40vh;
+  }
+}
