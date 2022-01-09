@@ -8,9 +8,11 @@ import {FormControl, Validators} from '@angular/forms';
 })
 export class FeedbackFormComponent implements OnInit {
 
-  name = new FormControl('', [Validators.required, Validators.email]);
-  number = new FormControl('', [Validators.required, Validators.email]);
+  name = new FormControl('', [Validators.required]);
+  number = new FormControl('', [Validators.required]);
   email = new FormControl('', [Validators.required, Validators.email]);
+  company = new FormControl('');
+  text = new FormControl('');
 
   /*getErrorMessage() {
     return this.email.hasError('email') ? 'Некорректный адрес электронной почты' : '';

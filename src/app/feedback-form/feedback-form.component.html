@@ -23,7 +23,7 @@
           <div class="col-12 col-sm-6">
             <mat-form-field appearance="legacy">
               <mat-label>Название компании </mat-label>
-              <input matInput>
+              <input matInput [formControl]="company">
             </mat-form-field>
           </div>
           <div class="w-100"></div>
@@ -45,13 +45,17 @@
           <div class="col-12 col-sm-6">
             <mat-form-field appearance="legacy">
               <mat-label>Комментарий</mat-label>
-              <textarea matInput></textarea>
+              <textarea matInput [formControl]="text"></textarea>
             </mat-form-field>
           </div>
           <div class="col-12 col-lg-6 btn-wrap">
             <!--<div class="warning-text">-->
             <div class="col-sm-4 col-12">
-              <button type="button" class="btn btn-outline-dark btn-text">отправить</button>
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-text"
+              ><a class="disable-decor"
+                  href = "mailto: info@proq.software?body=Привет! Меня зовут {{name.value}}, компания {{company.value}}, контактный телефон {{number.value}}, email {{email.value}}%20%3A%0D%0A{{text.value}}">отправить</a></button>
             </div>
             <div class="col-sm-8 col-12">
                 <p>Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>

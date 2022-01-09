@@ -33,11 +33,11 @@
   color: #212529;
   text-align: left;
   margin: auto 0;
-  padding-right: 3%
+  padding-right: .5%
 }
 
 .animated-text{
-  width: 10ch;
+  width: 20ch;
   font-family: Courier New;
   /*font-family: monospace;*/
   font-style: normal;
@@ -51,7 +51,7 @@
   overflow: hidden;
   border-right: 4px solid rgba(219, 129, 97, 1);
   animation: flashig-border 1.1s step-end infinite,
-  printed-text 4s steps(8);
+  printed-text 4s steps(14);
 }
 
 @keyframes flashig-border{

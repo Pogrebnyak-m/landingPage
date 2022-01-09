@@ -38,6 +38,11 @@ li{
   list-style-type: none;
 }
 
+.disable-decor {
+  text-decoration: none;
+  color: inherit;
+}
+
 .for-lg{
   display: none;
 }
