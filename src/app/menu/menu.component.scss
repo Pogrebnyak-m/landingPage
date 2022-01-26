@@ -45,9 +45,14 @@
   padding: 3% 0 0;
 }
 
+.offcanvas-body{
+  height: 100%;
+  overflow-y: visible;
+  transform: translateY(20%);
+}
+
 .navbar-nav{
   text-align: center;
-  transform: translateY(20%);
 }
 
 .nav-link{
@@ -75,6 +80,7 @@
 
 .number-wrap{
   padding-right: 10%;
+  margin: auto 0;
 }
 
 .number{
@@ -107,6 +113,10 @@
   background-color: #212529;
   outline: none !important;
   box-shadow: none !important;
+}
+
+.btn{
+  margin: auto 0;
 }
 
 .btn-text{
@@ -154,11 +164,12 @@ a:focus{
   }
 }
 @media (max-width: 980px) {
-  .navbar-nav{
-    transform: translateY(40%);
-  }
   .socials-wrap{
     justify-content: center;
+  }
+  .number{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (max-width: 768px) {
@@ -179,9 +190,6 @@ a:focus{
   }
 }
 @media (max-width: 580px) {
-  .navbar-nav{
-    transform: translateY(0);
-  }
   .menu-item{
     padding-top: 5%;
   }
@@ -205,5 +213,8 @@ a:focus{
   }
   img{
     max-width: 35%;
+  }
+  .offcanvas-body{
+    transform: translateY(10%);
   }
 }

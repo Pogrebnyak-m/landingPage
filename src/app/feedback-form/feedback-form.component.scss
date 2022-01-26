@@ -147,6 +147,12 @@ p{
   }
 }
 @media (max-width: 580px) {
+  .col-12{
+    /*text-align: center;*/
+  }
+  .row{
+    padding-left: 4%;
+  }
   .content-title{
     padding-bottom: 0;
   }

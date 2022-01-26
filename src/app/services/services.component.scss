@@ -32,7 +32,11 @@
 }
 
 .company_img {
-  height: 80vh;
+  height: 60vh;
+}
+
+.col-11{
+  padding-left: 3%;
 }
 
 h3{
@@ -101,10 +105,26 @@ p{
   padding: 0;
 }
 
-@media (max-width: 1280px) {
-.col{
-  padding: 0;
+
+@media (max-width: 1700px) {
+  .company_img {
+    height: 80vh;
+  }
 }
+
+@media (max-width: 1440px) {
+  .company_img {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .col{
+    padding: 0;
+  }
+  .company_img {
+    height: 60vh;
+  }
 }
 @media (max-width: 1200px){
   .lt-xl{
@@ -135,6 +155,7 @@ p{
     padding-top: 25%;
   }
 }
+
 @media (max-width: 768px) {
   .text{
     font-size: 35px;
@@ -171,19 +192,26 @@ p{
   h3{
     font-size: 15px;
     line-height: 21px;
+    padding-bottom: 0;
   }
-  .services-text{
+  /*.services-text{
     font-size: 10px;
     line-height: 15px;
-  }
-  .marker{
+  }*/
+  /*.marker{
     font-size: 10px;
     line-height: 15px;
-  }
+  }*/
   .marker-p{
     padding-bottom: 2%;
   }
   .company_img {
     height: 40vh;
+  }
+  .special{
+    padding-top: 14%;
+  }
+  .first-list{
+    padding-top: 18%;
   }
 }

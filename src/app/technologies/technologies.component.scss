@@ -4,16 +4,24 @@
 
 .content-title{
   padding-bottom: 4%;
+  display: inline-flex;
 }
 
-.text{
-  font-family: Montserrat Alternates;
+h2{
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
   letter-spacing: 0.05em;
   color: #212529;
+}
+
+.text{
+  font-family: Montserrat Alternates;
+}
+
+.textT{
+  font-family: Montserrat;
 }
 
 .tech{
@@ -33,7 +41,7 @@
 
 
 @media (max-width: 768px) {
-  .text{
+  h2{
     font-size: 35px;
     line-height: 45px;
     letter-spacing: 0.04em;
@@ -53,7 +61,7 @@
   .content-title{
     padding-bottom: 0;
   }
-  .text{
+  h2{
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.03em;
